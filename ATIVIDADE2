@@ -1,0 +1,40 @@
+package lpa;
+
+import java.util.Scanner;
+
+public class Ativcase2 {
+
+	public static void main(String[] args) {
+	
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Informe o dia da semana de Dominga á Sábado: ");
+		String dia = ler.next();
+		String domingo, segunda, terça, quarta, quinta, sexta, sabado;
+		
+		switch (dia) {
+		case ("domingo"):
+			System.out.println("Dia 1");
+			break;
+		case ("seguna"):
+			System.out.println("Dia 2");
+			break;
+		case ("terça"):
+			System.out.println("Dia 3");
+			break;
+		case ("quarta"):
+			System.out.println("Dia 4");
+			break;
+		case ("quinta"):
+			System.out.println("Dia 5");
+			break;
+		case ("sexta"):
+			System.out.println("Dia 6");
+			break;
+		case ("sabado"):
+			System.out.println("Dia 7");
+			break;
+		default:
+			System.out.println("Dia inválido");
+		}
+	}
+}
